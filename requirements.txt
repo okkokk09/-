@@ -1,0 +1,9 @@
+# === Core GUI & AI Libraries ===
+customtkinter>=5.2.0
+faster-whisper>=1.0.0
+av>=12.0.0
+
+# === NVIDIA CUDA & cuDNN Libraries for Windows (Recommended for GTX 1660 Super) ===
+# แพ็กเกจด้านล่างนี้ช่วยให้ CTranslate2 / faster-whisper ใช้งาน GPU บน Windows ได้ทันทีโดยไม่ต้องติดตั้ง CUDA Toolkit ขนาดใหญ่
+nvidia-cublas-cu12
+nvidia-cudnn-cu12

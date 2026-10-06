@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / CTranslate2 Build outputs (Do not push 3GB binaries to git)
+build/
+dist/
+build_log.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Media & Audio files
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.aac
+*.flac
+*.ogg
+*.wma
+*.mkv
+เสียง/
+
+# Transcripts generated during testing
+*_transcript.txt
+
+# OS & Editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
